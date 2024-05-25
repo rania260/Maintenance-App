@@ -159,15 +159,6 @@ function EditEquipement() {
                 <option value="STATUS_2">In Maintenance</option>
                 <option value="STATUS_3">Fixed</option>
               </Select>
-              {/* <Typography variant="h6" color="black">
-                Status:
-              </Typography>
-              <Input
-                size="regular"
-                placeholder="Enter barcode"
-                value={status}
-                onChange={(e) => setStatus(e.target.value)}
-              /> */}
             </div>
             <div>
               <form onSubmit={handleSubmit}>
